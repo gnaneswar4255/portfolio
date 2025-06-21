@@ -169,6 +169,17 @@ section {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+.more-link {
+    margin-top: 40px; /* default for desktop */
+    text-align: center;
+}
+
+/* Mobile adjustment */
+@media screen and (max-width: 600px) {
+    .more-link {
+        margin-top: 20px; /* smaller margin on mobile */
+    }
+}
 
 /* SOFTWARE GRID */
 .services-grid {
