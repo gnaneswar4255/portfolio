@@ -174,13 +174,6 @@ section {
     text-align: center;
 }
 
-/* Mobile adjustment */
-@media screen and (max-width: 600px) {
-    .more-link {
-        margin-top: 20px; /* smaller margin on mobile */
-    }
-}
-
 /* SOFTWARE GRID */
 .services-grid {
     display: grid;
