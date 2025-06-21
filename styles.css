@@ -119,13 +119,16 @@ nav a:hover {
     background-color: transparent;
     border: 2px solid black;
     color: black;
+    
 }
 
 .btn-secondary:hover {
     background-color: black;
     color: #FBFCFA;
 }
-
+.more-link{
+    margin-top: 20px;
+}
 /* SECTIONS */
 section {
     padding: 60px 20px;
@@ -262,7 +265,7 @@ footer p {
     }
 
     .btn-primary, .btn-secondary {
-        width: 100%;
+        width: 50%;
     }
 
     .aboutcontainer, .servicecontainer {
